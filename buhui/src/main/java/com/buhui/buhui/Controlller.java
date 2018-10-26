@@ -9,7 +9,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/learn")
-public class Action {
+public class Controlller {
     @RequestMapping("")
     public ModelAndView index(){
         List<LearnResouce> learnList =new ArrayList<LearnResouce>();
